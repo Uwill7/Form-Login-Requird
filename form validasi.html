@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validasi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" name="form_validasi" onsubmit="return validateForm()">
+            <h1>Data Diri</h1>
+
+            <div class="input-box">
+                <input type="text" name="nama" id="nama" placeholder="Nama"  >
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="nim" id="nim" placeholder="NIM"  >
+                <i class='bx bxs-id-card' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="password" id="password" placeholder="Password" >
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <br>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
